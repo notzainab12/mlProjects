@@ -1,0 +1,11 @@
+pandas
+numpy
+seaborn
+-e .
+
+
+# I can directly install setup.py or what i can do is:
+# whenever im trying to install requirements.txt, at that time setup.py 
+# will also be installed. So, enabling that, we'll write -e .
+# When we write -e ., it will automatically trigger setup.py file
+# and it will install the package as well as the dependencies mentioned in requirements.txt
