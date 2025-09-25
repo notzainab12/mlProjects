@@ -16,6 +16,6 @@ logging.basicConfig(
     format="[%(asctime)s] %(lineno)d %(name)s %(levelname)s - %(message)s",
     level=logging.INFO
 )
+print(f"[logger.py] Log file will be created at: {LOG_FILE_PATH}")
 
-if __name__ == "__main__":
-    logging.info("Logging has started")
+
